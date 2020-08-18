@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+div {
+  height: 400px;
+  width: 300px;
+  border: 4px solid white;
+  overflow: hidden;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#405de6), color-stop(#5851db), color-stop(#833ab4), color-stop(#c13584), color-stop(#e1306c), color-stop(#fd1d1d), color-stop(#f56040), color-stop(#f77737), color-stop(#fcaf45), to(#ffdc80));
+  background: linear-gradient(#405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+}
+
+img:hover {
+  -webkit-transform: rotate(8deg) scale(1.3);
+          transform: rotate(8deg) scale(1.3);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+/*# sourceMappingURL=style.css.map */

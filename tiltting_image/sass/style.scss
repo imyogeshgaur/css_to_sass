@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  height: 400px;
+  width: 300px;
+  border: 4px solid white;
+  overflow: hidden;
+}
+
+$red: 64;
+$green: 93;
+$blue: 230;
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    rgb($red, $green, $blue),
+    rgb($red + 24, $green - 12, $blue - 11),
+    rgb($red + 67, $green - 35, $blue - 50),
+    rgb($red + 129, $green - 40, $blue - 98),
+    rgb($red + 161, $green - 45, $blue - 122),
+    rgb($red + 189, $green - 64, $blue - 201),
+    rgb($red + 181, $green + 3, $blue - 166),
+    rgb($red + 183, $green + 26, $blue - 175),
+    rgb($red + 188, $green + 82, $blue - 161),
+    rgb($red + 191, $green + 127, $blue - 102)
+  );
+}
+img:hover {
+  transform: rotate(8deg) scale(1.3);
+  transition: all 1s;
+}
